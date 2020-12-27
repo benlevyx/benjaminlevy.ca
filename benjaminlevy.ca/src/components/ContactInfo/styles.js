@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import tw from 'tailwind.macro';
 
 export const ContactInfoItem = styled.div`
-  ${tw`w-1/3 sm:w-1/3`};
+  ${tw`md:w-1/3 sm:w-1/3`};
 `;
 
 export const Centered = styled.div`
