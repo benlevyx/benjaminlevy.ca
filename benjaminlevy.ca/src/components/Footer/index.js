@@ -9,7 +9,7 @@ const Footer = () => (
     <Container>
       <Styled.Links>
         <Styled.Link
-          href="/"
+          href="https://github.com/benlevyx/"
           rel="noreferrer noopener"
           target="_blank"
         >

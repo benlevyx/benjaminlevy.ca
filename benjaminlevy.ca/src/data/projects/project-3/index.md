@@ -1,8 +1,8 @@
 ---
 category: 'projects'
-title: "COVID-19 Student Response Team"
-description: "The website of the Harvard Medical Students COVID-19 Response Team -- a group of HMS students producing and disseminating educational resources, as well as coordinating activism initiatives surrounding COVID-19."
-link: "https://covidstudentresponse.org/"
-background: "#BC3B43"
-tools: ["Hugo"]
+title: "Mapping COVID-19 Contact Tracing Applications Around the World"
+description: "A visualization and database of contact tracing applications around the world for COVID-19. Hoping to keep this updated frequently."
+link: "https://benlevyx.github.io/covid-tracking/"
+background: "#10104b"
+tools: ["D3.js", "Python"]
 ---
