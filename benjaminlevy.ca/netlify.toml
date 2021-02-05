@@ -1,0 +1,11 @@
+[build]
+
+    base = "benjaminlevy.ca/"
+    publish = "benjaminlevy.ca/public/"
+    command = "npm run build"
+
+[[redirects]]
+
+    from = "/covid-apps/*"
+    to = "https://jovial-joliot-4a5122.netlify.app/blog/:splat"
+    status = 200
