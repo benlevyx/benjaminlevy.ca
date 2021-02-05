@@ -1,5 +1,4 @@
 [[redirects]]
-
     from = "/covid-apps/*"
-    to = "https://jovial-joliot-4a5122.netlify.app/blog/:splat"
+    to = "https://jovial-joliot-4a5122.netlify.app/:splat"
     status = 200
