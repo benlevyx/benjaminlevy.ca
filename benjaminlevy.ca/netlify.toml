@@ -1,9 +1,3 @@
-[build]
-
-    base = "benjaminlevy.ca/"
-    publish = "public/"
-    command = "npm run build"
-
 [[redirects]]
 
     from = "/covid-apps/*"
