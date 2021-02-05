@@ -1,7 +1,7 @@
 [build]
 
     base = "benjaminlevy.ca/"
-    publish = "benjaminlevy.ca/public/"
+    publish = "public/"
     command = "npm run build"
 
 [[redirects]]
