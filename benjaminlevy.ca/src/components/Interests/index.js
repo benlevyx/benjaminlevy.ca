@@ -17,7 +17,10 @@ const Interests = () => {
           subtitle
         }
       }
-      allMarkdownRemark(filter: { frontmatter: { category: { eq: "interests" } } }, sort: { fields: fileAbsolutePath }) {
+      allMarkdownRemark(
+        filter: { frontmatter: { category: { eq: "interests" } } }
+        sort: { fields: fileAbsolutePath }
+      ) {
         edges {
           node {
             id

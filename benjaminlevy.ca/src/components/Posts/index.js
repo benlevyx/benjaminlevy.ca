@@ -9,8 +9,7 @@ import TitleSection from 'components/ui/TitleSection';
 
 import * as Styled from './styles';
 
-import "katex/dist/katex.min.css";
-
+import 'katex/dist/katex.min.css';
 
 const Posts = () => {
   const { markdownRemark, allMarkdownRemark } = useStaticQuery(graphql`
@@ -39,12 +38,7 @@ const Posts = () => {
               tags
               cover {
                 childImageSharp {
-                  fluid(
-                    maxWidth: 800,
-                    maxHeight: 400,
-                    fit: COVER,
-                    cropFocus: NORTH
-                    ) {
+                  fluid(maxWidth: 800, maxHeight: 400, fit: COVER, cropFocus: NORTH) {
                     ...GatsbyImageSharpFluid
                   }
                 }

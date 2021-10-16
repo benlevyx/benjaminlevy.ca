@@ -6,4 +6,3 @@ content: "Hey there! I'm Ben. Let me tell you about myself. I'm a data scientist
 linkTo: '/resume/'
 linkText: 'View My Profile'
 ---
-

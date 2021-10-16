@@ -16,7 +16,10 @@ const Projects = () => {
           subtitle
         }
       }
-      allMarkdownRemark(filter: { frontmatter: { category: { eq: "projects" } } }, sort: { fields: fileAbsolutePath }) {
+      allMarkdownRemark(
+        filter: { frontmatter: { category: { eq: "projects" } } }
+        sort: { fields: fileAbsolutePath, order: DESC }
+      ) {
         edges {
           node {
             id
@@ -49,12 +52,8 @@ const Projects = () => {
           return (
             <Styled.Project key={id}>
               <a href={link} target="_blank" rel="noopener noreferrer">
-                <motion.div
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 1 }}
-                >
-                  <Styled.Card
-                    style={{backgroundColor: background}}>
+                <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 1 }}>
+                  <Styled.Card style={{ backgroundColor: background }}>
                     <Styled.Content>
                       <Styled.Title>{title}</Styled.Title>
                       <Styled.Description>{description}</Styled.Description>

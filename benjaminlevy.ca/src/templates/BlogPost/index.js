@@ -10,8 +10,7 @@ import FormatHtml from 'components/utils/FormatHtml';
 
 import * as Styled from './styles';
 
-import "katex/dist/katex.min.css";
-
+import 'katex/dist/katex.min.css';
 
 const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark;
