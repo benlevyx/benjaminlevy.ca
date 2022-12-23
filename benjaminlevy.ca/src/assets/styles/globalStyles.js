@@ -13,4 +13,8 @@ export default createGlobalStyle`
   body p {
     ${tw`mt-3 text-black`};
   }
+
+  h2 {
+    ${tw`text-lg font-semibold leading-10`}
+  }
 `;
